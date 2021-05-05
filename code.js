@@ -35,7 +35,7 @@ function setup()
   createCanvas(828,1792); //Sets the createCanvas of the app. You should modify this to your device's native createCanvas. Many phones today are 1080 wide by 1920 tall.
   noStroke(); //my code doesn't use any strokes.
 
-  shuffle(phrases)
+  phrases = shuffle(phrases);
 }
 
 //You can modify stuff in here. This is just a basic implementation.
